@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body
+{background-color: gold;
+font-family: "Times New Roman", Times, serif;
+font-size: 20px
+}
+title{
+    color: darkorange;
+    text-align: center;
+}
+p {
+color:blue;
+text-align: justify;    
+}
