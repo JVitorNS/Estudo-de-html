@@ -2,11 +2,11 @@
 body{
     font-family: 'Times New Roman', Times, serif;
     font: 20px;
-    background-color: black;
+    background-color: rgb(255, 255, 255);
     text-align: justify;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 pre{
-    text-align: justify;
+    text-align: center;
 }
