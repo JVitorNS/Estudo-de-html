@@ -1,0 +1,13 @@
+ @charset "Utf-8";
+ * {
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+ }
+
+ body{
+    background-image: linear-gradient(to right, rgb(218, 108, 108), rgb(255, 233, 33));
+ }
+
+ p{
+    text-align: justify;
+ }
