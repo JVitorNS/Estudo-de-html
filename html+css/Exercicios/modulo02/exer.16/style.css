@@ -1,13 +1,32 @@
  @charset "Utf-8";
  * {
     font-family: Arial, Helvetica, sans-serif;
-    height: 100%;
+ 
  }
 
+ 
  body{
-    background-image: linear-gradient(to right, rgb(218, 108, 108), rgb(255, 233, 33));
- }
+   background-image: linear-gradient(to right, rgb(218, 108, 108), rgb(255, 233, 33)); }
 
  p{
     text-align: justify;
+ }
+ main {
+   background-color: white;
+   border-radius: 10px;
+   box-shadow: 5px 5px 15 px rgb(114, 38, 38);
+   width: 600px;
+   padding: 10px;
+   margin: auto;
+
+ }
+ h1{
+   color: orange;
+   text-align: center;
+   text-shadow: 1px 1px 2px orange;
+
+ }
+ h2{
+   color: blue;
+
  }
