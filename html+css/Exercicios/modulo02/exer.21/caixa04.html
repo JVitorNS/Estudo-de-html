@@ -10,58 +10,89 @@
             font-family:"idroid";
             src: url(/home/joao-vitor/Estudos/Estudo-de-html/html+css/Exercicios/modulo02/exer.21/pacote-projeto-d010/fontes/idroid.otf);
         }
+        body{
+            background-color: rgba(0, 214, 89, 0.788);
+            border-radius:10px;
+            padding: 5px;
+            width: auto;
+            margin: 10px 10x 10px
+        }
         header {
             text-align: center;
-    background-color: #093B53;
-    color: white;
-    width: auto;
-    height: auto;
+            background-color: #087e50;
+            color: white;
+            border-radius: 10px;
+            padding: 5px;
+            width: auto;
+            margin: auto;
+           
         }
+        #mainprincipal {
+            background-color: white;
+            color: black;
+            border-radius:10px;
+            padding: 5px;
+            width: auto;
+            margin: auto
+        }
+        
         h1{
             text-align: center;
             font-size: 1.5em;
         }
-        #cabeçalho{
+        .cabeçalho{
             text-align: justify;
+            font-size: 20px;
+            color: #00c076;
         }
-        #special{
+        .special{
             font-family: "idroid";
             font-size: 12px;
             font-weight: bold;
         }
-        iframe{ box-shadow: 10px 10px rgba(5, 110, 5, 0.39);
-        
-  
+        iframe{
+            border-radius: 10px;
+            margin: 20px;
+            box-shadow: 1px 1px 0 20px rgb(0, 92, 0)
         }
+    
     </style>
 </head> 
 <body>
     <header>
         <h1> Curiosidades de Tecnologia</h1>
         <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
-        <main id="cabeçalho"><nav><a href="Home">Home</a> <a href="noticia">Notícias</a> <a href="curiosidades">Curiosidades</a> <a href="Fale">Fale conosco</a></nav></main>
+        <main class="cabeçalho">
+            <a class="cabeçalho" href="Home">Home</a> 
+            <a class="cabeçalho" href="noticia">Notícias</a> 
+            <a class="cabeçalho" href="curiosidades">Curiosidades</a> 
+            <a class="cabeçalho" href="Fale">Fale conosco</a></main>
     </header>
     
-        <main>
+        <main id="mainprincipal">
             <h1 id="special">História do mascote do android</h1>
             <p>Provavelmente você sabe que o sistema operacional Android, mantido pelo Google é um dos mais utilizados para dispositivos móveis em todo o mundo. Mas tavez você não saiba que o seu simpático mascote tem um nome e uma história muito curiosa? Pois acompanhe esse artigo para aprender muita coisa sobre esse robozinho.
             </p>
-            <h2 id="special">A primeira versão</h2>
+            <h2 class="special">A primeira versão</h2>
             <p>A primeira tentativa de criar um mascote surgiu em 2007 e veio de um desenvolvedor chamado <a href="Dan">Dan Morrill</a>. Ele conta que abriu o <a href="INK">Inkscape</a> (software livre para vetorização de imagens) e criou sua própria versão de robô. O objetivo era apenas personificar o sistema apenas para a a sua equipe, não existia nenhuma solicitação da empresa para a criação de um mascote.</p>
             <picture>
                 <source media="(min-width:750px)" srcset="/home/joao-vitor/Estudos/Estudo-de-html/html+css/Exercicios/modulo02/exer.21/dan-droids.png" type="image/png">
                 <source media="(max-width:1080px)" srcset="/home/joao-vitor/Estudos/Estudo-de-html/html+css/Exercicios/modulo02/exer.21/dan-droids-pq.png" type="image/png">
                 <img src="dan-droids.png" alt="android">
-            </picture> Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.
+            </picture> <p>Essa primeira versão bizarra até foi batizada em homenagem ao seu criador: seriam os Dandroids.</p>
             <h2>Surge um novo mascote</h2>
             <p>A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <a href="biograpy">Irina Blok</a>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.</p>
-            <source media="(min-width:750px)" srcset="/home/joao-vitor/Estudos/Estudo-de-html/html+css/Exercicios/modulo02/exer.21/irina-blok.jpg">
-            <source media="(max-width:1080px)" srcset="/home/joao-vitor/Estudos/Estudo-de-html/html+css/Exercicios/modulo02/exer.21/irina-blok-pq.jpg" type="image/png">
-            <img src="irina-blok.jpg" alt="android">
+            <picture>
+                <source media="(min-width:850px)" srcset="/home/joao-vitor/Estudos/Estudo-de-html/html+css/Exercicios/modulo02/exer.21/irina-blok.jpg">
+                <source media="(max-width:1080px)" srcset="/home/joao-vitor/Estudos/Estudo-de-html/html+css/Exercicios/modulo02/exer.21/irina-blok-pq.jpg" type="image/png">
+                <img src="irina-blok.jpg" alt="android">
+            </picture>
             <p>A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o Bugdroid, o novo mascote do Android.</p>
             <img src="bugdroid.png" alt="android-humano">
             <p>A principal inspiração para os traços do novo Bugdroid veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do Google e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.</p>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=msfkW_VfaSZ5yuIZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <picture size="auto">
+                
+                <iframe width="770" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=msfkW_VfaSZ5yuIZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></picture>
             <h3>Quer aprender mais?</h3>
             <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
             <pre>
