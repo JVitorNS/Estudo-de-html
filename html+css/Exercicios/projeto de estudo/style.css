@@ -29,6 +29,7 @@ body{
 }
 p {
     text-indent: 10px;
+    line-height: 1.3em;
 }
 
 header {background-image:linear-gradient(to bottom, var(--cor3), var(--cor4));
@@ -58,6 +59,15 @@ nav > a {
 
 nav > a:hover{
     background-color: white;
+}
+h1{
+    font-size: 1.5em;
+    text-indent: 10px;
+}
+
+h2{
+    font-size: 1.3em;
+    text-indent: 10px;
 }
 
 main{
