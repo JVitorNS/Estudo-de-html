@@ -103,11 +103,25 @@ footer{
 }
 aside {
     text-decoration: none;
+    background-color: var(--cor2);
+    margin: 2px 2px 0px 0px;
+    border-radius: 10px;
     
 }
+
+aside h3{
+    text-decoration: none;
+    background-color: var(--cor4);
+    color: white;
+    font-size: 1.3em;
+    padding: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+
 aside ul {
     text-align: center;
    list-style-type: '\2714';
    list-style-position: inside;
    columns: 2;
+   
 }
